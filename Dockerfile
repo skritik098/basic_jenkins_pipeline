@@ -4,6 +4,7 @@ RUN dnf install httpd -y
 
 COPY src/* /var/www/html/
 
+
 EXPOSE 80
 
 CMD /usr/sbin/httpd -D 
