@@ -2,7 +2,7 @@ FROM registry.redhat.io/ubi8/ubi:latest
 
 RUN dnf install httpd -y 
 
-COPY /task_1/webserver/* /var/www/html/
+COPY /Users/kritiksachdeva/Desktop/Class_Tasks/mlops_tasks/temp_storage/task-1/webserver/* /var/www/html/
 
 EXPOSE 80
 
